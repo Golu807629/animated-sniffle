@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>calculator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1 id="c_heading">Calculator</h1>
+  <form id="formi">
+  <div id="c_box">
+    <h1 id="c_answer-box" ></h1>
+    <div id="c_input-a"><input type="number" placeholder="Enter First No." id="c_input-firstno"></div>
+    <div id="c_input-b"><input type="number" placeholder="Enter Second No." id="c_input-secondno"></div>
+    <button type="button" id="c_oper-a" onclick="add()">Add (+)</button>
+    <button type="button" id="c_oper-b" onclick="subtract()">Subtract (-)</button>
+    <button type="button" id="c_oper-c" onclick="multiply()">Multiply (X)</button>
+    <button type="button" id="c_oper-d" onclick="divide()">Divide (/)</button>
+    <button type="button" id="c_oper-e" onclick="remainder()">Remainder (%)</button>
+    <input type="reset" id="c_oper-f" value="Reset" onclick="cleari()">
+  </div>
+  </form>
+  <a href="./index.html"><button id="c_home">Home</button></a>
+  <a href="./image_filter_tool.html"><button id="c_previous-tool">Previous Tool</button></a>
+  
+  
+  <script src="./script.js"></script>
+</body>
+</html>

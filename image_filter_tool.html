@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Image_filter_tool</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1 id="im_heading">Image Filter Tool</h1> 
+  <div id="im_image-box">
+    <img src="#" id="im_image" alt="image" />
+  </div>
+  <button id="im_upload-btn">Upload<input type="file" accept=".jpg, .png, .jpeg" id="im_input" onchange="upload()"/></button>
+  <div class="container">
+    <div id="contrast"><h3 id="contrast-value">Contrast : 100%</h3><input type="range" value="100" id="im_input-contrast" min="-200" max="500" oninput="contrast()" /></div>
+    <div id="saturate"><h3 id="saturate-value">Saturate : 100%</h3><input type="range" value="100" id="im_input-saturate" min="-200" max="500" oninput="saturate()" /></div>
+  </div>
+  <a href="./index.html"><button id="im_next-btn">Previous Tool</button></a>
+  <a href="./calculator.html"><button id="im_next-btn">Next Tool</button></a>
+  <h2 id="developer">Developed By- Mr. Vineet</h2>
+  
+  
+  <script src="./script.js"></script>
+</body>
+</html>
